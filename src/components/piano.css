@@ -1,0 +1,7 @@
+.piano{
+  padding-top: 10rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  display: flex;
+  flex-direction: row;
+}
