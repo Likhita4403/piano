@@ -1,7 +1,7 @@
 import About from './About';
-import Contact from './Contact';
+import Help from './Help';
 import Home from './Home';
-import Signup from './Signup';
+import Signup from './Register';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 function Menu() {
@@ -12,7 +12,7 @@ function Menu() {
           <Tab>Home</Tab>
           <Tab>Signup</Tab>
           <Tab>About</Tab>
-          <Tab>ContactUs</Tab>
+          <Tab>Help</Tab>
         </TabList>
         <TabPanel>
           <div>
@@ -21,6 +21,7 @@ function Menu() {
         </TabPanel>
         <TabPanel>
           <div>
+            <h1 className='display-6'>SIGNUP</h1>
             <Signup />
           </div>
         </TabPanel>
@@ -31,7 +32,7 @@ function Menu() {
         </TabPanel>
         <TabPanel>
           <div>
-            <Contact />
+            <Help />
           </div>
         </TabPanel>
       </Tabs>

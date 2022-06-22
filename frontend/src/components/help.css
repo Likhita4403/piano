@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+  
+  .heading
+  {
+    color: antiquewhite;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .Helpimg{
+   float: right;
+   padding-top: 1rem;
+
+  }
+  .heading1{
+    padding: top 2rem;
+  }
+  .steps{
+    text-align:start;
+    color: navajowhite;
+    font-size: 1.2rem;
+    display:flex;
+    padding-top: 1rem;
+
+  }
+  
+  @media screen and ( max-width:1250px)
+  {
+    .heading{
+      font: size 0.5 rem;
+  
+
+    }
+    .Helpimg
+    {
+      display: block;
+      width: 500px;
+      height: 300px;
+      
+    }
+  }

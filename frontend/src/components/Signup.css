@@ -1,0 +1,32 @@
+.container{
+  background-color: rgb(48, 55, 67);
+  width: 50%;
+  /* height: 70vh; */
+  border-radius: 3%;
+  text-align: left;
+}
+.react-signup-form{
+  list-style-type: none;
+  margin-top: 1rem;
+  padding: 2rem;
+}
+.signup-label{
+  margin-left: 5rem;
+  padding-left: 3rem;
+  padding: 1rem;
+}
+
+.signup-label-part{
+  align-content: left;
+  font-size: 2rem;
+  justify-content: flex-end;
+}
+.name-input{
+  justify-content: center;
+  margin-left: 2rem;
+  
+}
+.d{
+  display: flex;
+  width: 75%;
+}
