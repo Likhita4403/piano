@@ -1,32 +1,17 @@
-.container{
-  background-color: rgb(48, 55, 67);
-  width: 50%;
-  /* height: 70vh; */
-  border-radius: 3%;
-  text-align: left;
+form {
+  width: 80%;
+  margin: 0 auto;
 }
-.react-signup-form{
-  list-style-type: none;
-  margin-top: 1rem;
-  padding: 2rem;
+label,input{
+  display: inline-block;
 }
-.signup-label{
-  margin-left: 5rem;
-  padding-left: 3rem;
-  padding: 1rem;
+label {
+  width: 30%;
+  text-align: right;
 }
 
-.signup-label-part{
-  align-content: left;
-  font-size: 2rem;
-  justify-content: flex-end;
-}
-.name-input{
-  justify-content: center;
-  margin-left: 2rem;
-  
-}
-.d{
-  display: flex;
-  width: 75%;
+label+input {
+  width: 30%;
+  height: 3%;
+  margin: 0 30% 0 4%;
 }
