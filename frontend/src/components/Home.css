@@ -1,6 +1,6 @@
 .list{
   list-style-type: none;
   display: flex;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   justify-content: center;
 }

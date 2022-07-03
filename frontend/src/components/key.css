@@ -1,7 +1,7 @@
 .key {
   background-color: white;
   height: 50%;
-  width: 50%;
+  width: 75%;
   border: .1rem solid black;
 }
 
@@ -23,7 +23,8 @@
   position: relative;
   color: black;
   font-weight: 600;
-  font-size: 4;
+  font-size: 2rem;
+  margin-left: 1rem;
   margin-top: 20rem;
   padding-bottom: 4rem;
   pointer-events: none;

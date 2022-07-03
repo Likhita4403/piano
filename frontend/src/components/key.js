@@ -30,7 +30,7 @@ class Key extends React.Component {
     } else {
       key = (
         <div className={keyClassName}>
-          <div className="key-text">{this.props.note.toUpperCase()}</div>
+          <div className="key-text text-center">{this.props.note.toUpperCase()}</div>
         </div>
       );
     }

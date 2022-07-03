@@ -5,14 +5,15 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background: #053742;
+
 }
  
-/* Tab Container */
+Tab Container
 .Tabs {
   width: 100%;
   height: 100%;
   min-height: 400px;
-  background: #053742;
   margin: 3.5rem auto 1.5rem;
   padding: 2rem 2rem;
   color: #E8F0F2;

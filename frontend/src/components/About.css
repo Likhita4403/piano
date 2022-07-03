@@ -1,6 +1,15 @@
-.c{
-  min-height: 100%;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
+/* .overflow{
+  height: max-content;
+} */
 .card:hover {
   transform: scale(1.5);
   box-shadow: 0.1rem 0.1rem 0.1rem;
@@ -8,10 +17,6 @@
 .zoom:hover .btn {
   background-color: rgb(102, 102, 241);
   color: aliceblue;
-}
-.card-footer
-{
-  margin: auto;
 }
 .container
 {

@@ -1,6 +1,7 @@
 import About from './About';
 import Help from './Help';
 import Home from './Home';
+import Login from './Login'
 import Signup from './Register';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
@@ -10,7 +11,7 @@ function Menu() {
       <Tabs className="Tabs lead">
         <TabList>
           <Tab>Home</Tab>
-          <Tab>Signup</Tab>
+          <Tab>Login</Tab>
           <Tab>About</Tab>
           <Tab>Help</Tab>
         </TabList>
@@ -21,8 +22,8 @@ function Menu() {
         </TabPanel>
         <TabPanel>
           <div>
-            <h1 className='display-6'>SIGNUP</h1>
-            <Signup />
+            <h1 className='display-6'>LOGIN</h1>
+            <Login/>
           </div>
         </TabPanel>
         <TabPanel>
